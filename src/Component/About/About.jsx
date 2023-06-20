@@ -2,7 +2,7 @@ import React from 'react'
 import './about.scss';
 import { Tecnologias } from '../Habilidades/Tecnologias';
 import { Educacion } from '../Educacion/Educacion';
-import { Experiencia } from '../Experiencia/Experiencia';
+import { Experiencia } from '../Experiencia/Experiencia.jsx';
 
 export const About = () => { 
   return (

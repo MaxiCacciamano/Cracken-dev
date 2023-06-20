@@ -13,7 +13,7 @@ export const H = () => {
               <p>
                 Convirtiendo ideas y sueños en lineas de codigo inovadoras
                 <br />
-                Estudiante de sistema y desarrollador web Fullstack. Mi pasion
+                Estudiante avanzado de sistema y desarrollador web Fullstack. Mi pasion
                 por la informatica hacen que cada dia crezca y aprenda cosas
                 nuevas de este mundo
               </p>
@@ -22,7 +22,7 @@ export const H = () => {
               </div>
         </div>
         <div className='gen1'>
-            <img src={compu}/>
+            {/* <img src={compu}/> */}
         </div>
     </div>
 
