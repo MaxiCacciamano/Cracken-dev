@@ -1,0 +1,50 @@
+.footer{
+    display: flex;
+    justify-content:space-around;
+    border-top: 3px solid white;
+    background-color: rgb(27,27,27);
+    h4{
+        color: #e2e3dd;
+        padding-top:35px;
+        margin-right: 80px;
+    }
+    .c{
+        margin: 2px;
+        width: 9%;
+    }
+    strong{
+        // font-size: 30px;
+        color:#e2e3dd;
+    }
+    img{
+        width: 5%;
+    }
+    .footer-contacto{
+        // color:white;
+        // font-size: 20px;
+        // font-weight: bold;
+        cursor: pointer;
+        display: contents;
+    }
+}
+@media screen and (max-width: 480px){
+    .footer{
+        display: grid;
+        justify-content:space-around;
+        .c{
+            width: 8%;
+        }
+        img{
+            position: relative;
+            // margin: 10px; 
+            width: 18%;
+        }
+        h4 {
+            // padding-top:1px;
+            // margin-right: 0px;
+            font-size: 1.4rem;
+            margin: 0px 10px -30px 10px;
+            text-align: center;
+        }
+    }
+}

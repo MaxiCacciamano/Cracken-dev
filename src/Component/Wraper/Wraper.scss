@@ -1,0 +1,122 @@
+@use "sass:string";
+
+$foregroundColor: green;
+$backgroundColor: black;
+
+$defaultMargin: 10px;
+
+@mixin flex-center-all {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transition-all($duration) {
+  transition: all $duration;
+  transition-timing-function: ease-in-out;
+}
+
+* {
+  // margin: 0;
+  // padding: 0;
+  // box-sizing: border-box;
+}
+
+// html {
+//   height: 100%;
+// }
+
+// body {
+//   background-color: $backgroundColor;
+//   color: $backgroundColor;
+//   font-family: sans-serif;
+//   font-size: 1.1em;
+//   z-index: -1;
+//   // height: 100%;
+// }
+
+.wrapper {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  background-color: rgb(27,27,27);
+  color: rgb(27,27,27);
+  font-family: sans-serif;
+  font-size: 1.1em;
+  // z-index: -1;
+  right: 0px;
+  // left: 100;
+  left: 0px;
+  margin:0 auto;
+  bottom: 0px;
+
+}
+
+
+@function unicode($str) {
+  @return unquote('"') + unquote(str-insert($str, "\\", 1)) + unquote('"');
+}
+
+
+@function dec_to_hex($dec) {
+  $hex: "0123456789ABCDEF";
+  $first: (($dec - $dec % 16)/16)+1;
+  $second: ($dec % 16)+1;
+  @return str-slice($hex, $first, $first) + str-slice($hex, $second, $second);
+}
+
+@function random_letter() {
+  @return unicode(#{dec_to_hex(random(26) + 96)});
+}
+
+.letter {
+  position: absolute;
+}
+
+@for $i from 1 through 500 {
+  .letter-#{$i} {
+    // max-width: 3000px;
+    // width: 100%;
+    left: (3 + random(91vn )) / 100 * 100%;
+    animation: fall
+      #{(random(50) + 50) /
+      10}s
+      linear
+      #{random(600) /
+      10}s
+      infinite
+      normal;
+  }
+
+  .letter-#{$i}:before {
+    content: random_letter();
+  }
+}
+
+@keyframes fall {
+  0% {
+    color: rgb(27, 27, 27);
+    top: 0%;
+  }
+  1% {
+    color: $foregroundColor;
+    top: 5%;
+  }
+  50% {
+    top: 95%;
+    color: $foregroundColor;
+  }
+  51% {
+    top: 95%;
+    color: rgb(27, 27, 27);
+  }
+}
+@media screen and (max-width: 590px){
+  .wrapper {
+    height: 1200px;
+    bottom: auto;
+    // position: relative;
+  }
+  
+}

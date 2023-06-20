@@ -1,12 +1,22 @@
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
+#root{
+  /* background-color: rgb(27,27,27); */
 
+  position: relative;
+  background: url(http://thecodeplayer.com/u/m/b1.png) no-repeat center center fixed;
+  background-size: cover;
+  min-width: 500px;
+  min-height: 200px;
+  /* color: #fff; */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

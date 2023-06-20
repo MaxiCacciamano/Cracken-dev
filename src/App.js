@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import {H} from './Component/Home/H.jsx'
+import {About} from './Component/About/About.jsx'
+import { Allproyects } from './Component/Trabajos/Allproyects.jsx'
+import {Footer}from './Component/footer/Footer.jsx'
+import NavBar from './Component/NavBar/NavBar.jsx'
+// import Wraper from './Component/Wraper/Wraper.jsx';
+import './App.css'
+
+import {
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <div class="general">
+        <div>
+    <NavBar/>
+         </div> 
+  
+      <Routes>
+        {/* <div style={{height:"100vh"}}> */}
+        <Route exact path="/" element={<H/>}/>
+        {/* </div> */}
+        <Route  path="/about" element={<About/>}/>
+        <Route path="/proyects" element={<Allproyects/>}/>
+     </Routes>
+     {/* <div>
+     <Footer />
+     </div> */}
+      </div>
+     <Footer />
     </div>
   );
 }

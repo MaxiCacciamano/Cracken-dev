@@ -1,0 +1,99 @@
+
+.band {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  
+  display: grid;
+  
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media (min-width: 60em) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background: #e2e3dd;
+  text-decoration: none;
+  color: #e2e3dd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  
+  // sets up hover state
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+    
+  &:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  }
+  
+  article {
+    padding: 20px;
+    flex: 1;
+    
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  p {
+    flex: 1;
+    margin-bottom: -1px;
+    line-height: 1.4;
+    color:black;
+  }
+  
+  span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+  }
+  svg{
+    margin:2px;
+    width:9%;
+  }
+  .app{
+    span{
+      display: flex;
+      margin-top: 0px;
+    }
+  }
+  .share{
+  }
+  .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.item-1 {
+  @media (min-width: 60em) {
+    grid-column:   span 2;
+    
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
+
+

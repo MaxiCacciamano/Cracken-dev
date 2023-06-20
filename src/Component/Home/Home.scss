@@ -1,0 +1,147 @@
+
+$popin:"Poppins", sans-serif;
+
+
+
+.menu{
+  
+  
+}
+.general2{
+  height: 100vh;
+  .info{
+    display: flex;
+    position: relative;
+    top: 40px;
+  }
+  .info{
+    // grid-template-columns:50% 50%;
+    // height: 100%;
+    .home2{
+      // height: 100%;
+      // width:50%;
+      flex-basis: 50%;
+      .foto{
+        
+        img{
+          
+        }
+      }
+      
+    }
+    .home3{
+      top: 100px;
+      position: relative;
+      flex-basis: 50%;
+      // display:flex;
+        .home3 {
+          font-size: 36px;
+
+                color: #ecf0f1;
+                
+              }
+
+              ul li {
+                margin: 0;
+                font-family: $popin;
+                color: white;
+                
+              }
+              h2{
+                
+                font-weight: 500;
+                
+                color: white;
+              }
+              
+              h1{
+                color: white;
+                
+                font-family: 'Kanit', sans-serif;
+               font-size: 4.5rem;
+              }
+            .dev{
+              
+            }
+            .nombres{
+              
+                p{
+                  color: black;
+                  justify-content: left;
+                  font-size: 1.1rem; 
+                  font-weight: 600;
+                  
+                }
+                .presentacion-p1 p{
+                  
+                }
+              }
+              .maquina{
+                h1{
+                  line-height:1em;
+                }
+              }
+            }
+          }
+        }
+        
+        
+      
+        .foo{
+        position: relative;
+    }
+
+
+    @media screen and (max-width: 480px){
+      .general2{
+    //     // margin: 0px 200px 0px 200px;
+        .info{
+          display: grid;
+          top: 0px;
+          // width: 90%;
+    //       .home3{
+    //         // margin: 10px;
+    //         width: 90%;
+    //         // padding: 13px;
+            .nombres{
+              h1{
+                font-size: 2.5rem;
+    //             // padding: 0px 10px 0px 10px;
+    //             text-align: center;
+              }
+    //           .maquina{
+    //             h1{
+    //               // text-align: center;
+    //               // padding-right:35px ;
+    //             }
+    //           }
+    //           .presentacion {
+    //             // padding-left: 40px;
+    //             margin: 5px;
+    //             p{
+    //               width: 100%;
+    //               text-align: center;
+    //             }
+    //           }
+    //         }
+          }
+          .home2{
+            // position:relative;
+            margin:10px;
+            .foto{
+              // height: 80vh;
+              img{
+                width: 100%;
+    //             visibility: hidden;
+              }
+            }
+          }
+          .home3{
+            top:0px;
+          }
+        }
+        .cv{
+          justify-content:left;
+        }
+      }
+    }

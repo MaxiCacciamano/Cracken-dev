@@ -6,7 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.nav{
+  /* margin: 600px; */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,7 +25,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.general{
+   /* max-width:1200px; */
+  /*margin:0 auto;
+  background-color: rgb(27,27,27); */
+  padding: 0px 8rem; 
+  /* min-height:200px; */
+}
+@media screen and (max-width: 480px){
+  .general{
+    padding:0px 3rem;
+  }
+}
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +49,4 @@
     transform: rotate(360deg);
   }
 }
+

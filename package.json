@@ -1,21 +1,37 @@
 {
   "name": "cracken-dev",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "@mui/styled-engine-sc": "^5.12.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "compass-mixins": "^0.12.12",
+    "jquery": "^3.7.0",
+    "jQuery": "^1.7.4",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.0",
+    "react-masonry-css": "^1.0.16",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "react-tooltip": "^4.5.0",
+    "sass": "^1.54.4",
+    "simple-icons": "^9.0.0",
+    "styled-components": "^5.3.10",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
