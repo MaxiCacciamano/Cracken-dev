@@ -9,9 +9,7 @@ export const Experiencia = () => {
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      {/* <p class="timeline-event-thumbnail">April 2011 - heute</p> */}
       <h3 class="timeline-event-thumbnail">GoldShop</h3>
-      {/* <h4>Freelance</h4> */}
       <p><strong>Tecnologias utilizadas</strong><br/>Wordpress</p>
       <p><strong>Ecoomerce</strong><br/>Trabajar como parte de un equipo desarrollando una pagina web ecoomerce, para un cliente  con version no code(Wordpress).<br/>Funciones: filtrado por secciones, pasarela de pago, detalles de cada producto, busqueda por producto, envio de emails</p>
     </div>
@@ -19,7 +17,6 @@ export const Experiencia = () => {
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      {/* <p class="timeline-event-thumbnail"></p> */}
       <h3 class="timeline-event-thumbnail">Mercadito</h3>
       <h4>Ecoomerce</h4>
       <p><strong>Tecnologias utilizadas</strong><br/>React, React hooks, Postgresql, Nodejs, Git, Github, Sass, Javascript, Sequelize, Api rest</p>
@@ -29,7 +26,6 @@ export const Experiencia = () => {
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      {/* <p class="timeline-event-thumbnail">April 2011 - heute</p> */}
       <h3 class="timeline-event-thumbnail">Shop</h3>
       <h4>Ecomerce</h4>
       <p><strong>Tecnologias utilizadas</strong><br/>React, React hooks, Boostrap, Api rest</p>

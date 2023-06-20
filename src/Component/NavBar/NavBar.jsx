@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../IMG/escuadraa.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Navbar.scss';
 import { Link } from "react-router-dom";
@@ -22,7 +21,7 @@ function BasicExample() {
                          </Nav.Link>
                          <NavDropdown title="About" id="basic-nav-dropdown">
               {/* <NavDropdown.Item href="#action/3.1">About me</NavDropdown.Item> */}
-              <NavDropdown.Item href="/About"  id="bb">
+              <NavDropdown.Item href="/About"  className="bb">
                 <p>About me</p>
               </NavDropdown.Item>
               <NavDropdown.Item  href="#skills"><p>Skills</p></NavDropdown.Item>
