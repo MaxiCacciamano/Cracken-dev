@@ -333,6 +333,12 @@ a{
     }
 }
 
+@media (max-width: 1024px) { 
+  .sub-about{
+    display: grid;
+  }
+}
+
 @media screen and (max-width: 480px){
   .sub-about {
     flex-direction: column;
