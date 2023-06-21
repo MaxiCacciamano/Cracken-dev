@@ -336,6 +336,10 @@ a{
 @media (max-width: 1024px) { 
   .sub-about{
     display: grid;
+    .fotoabout{
+      height: 500px;
+      margin: auto;
+    }
   }
 }
 
