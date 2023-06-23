@@ -312,7 +312,7 @@ export const Tecnologias = () => {
                 <br /> lógico
               </h5>
             </div>
-            <div className="subBland">
+            <div className="subBland equipo">
               <img src={equipo} />
               <h5>
                 Trabajo en
