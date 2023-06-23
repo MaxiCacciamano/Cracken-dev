@@ -9,8 +9,8 @@ export const About = () => {
     <div className="About-me" id="maxi">
       <h1>Sobre mi</h1>
       <div className="sub-about">
-        <div data-aos="fade-right" className="fotoabout"></div>
-        <div data-aos="fade-left" className="about2">
+        <div  className="fotoabout"></div>
+        <div className="about2">
           <h3>¿Quien soy?</h3>
           <p>
             Una de mis fortalezas es mi capacidad para aprender rápidamente

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Educacion = () => {
   return (
-    <div className="educacion00" data-aos="fade-right">
+    <div className="educacion00" /*data-aos="fade-right"*/>
       <h1 id="educacion">Educación</h1>
         <ul  class="timeline">
           <li class="timeline-event">

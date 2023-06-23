@@ -3,7 +3,7 @@ import "./experiencia.scss";
 
 export const Experiencia = () => {
   return (
-    <div data-aos="fade-left">
+    <div /*data-aos="fade-left"*/>
       <h1 id="experiencia">Experiencia</h1>
         <ul class="timeline">
           <li class="timeline-event">
