@@ -72,6 +72,9 @@ $prefix: "mo-";
             border-radius: 20px;
             background-color: #00390d;
             margin: 0px;
+            .equipo{
+                border-radius: 100%;
+            }
         }
         img:hover{
             cursor:pointer;
