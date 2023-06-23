@@ -2,10 +2,9 @@ import React from "react";
 
 export const Educacion = () => {
   return (
-    <div className="educacion00">
-        <h1 id="educacion">Educación</h1>
-      <div data-aos="fade-right">
-        <ul class="timeline">
+    <div className="educacion00" data-aos="fade-right">
+      <h1 id="educacion">Educación</h1>
+        <ul  class="timeline">
           <li class="timeline-event">
             <label class="timeline-event-icon"></label>
             <div class="timeline-event-copy">
@@ -72,7 +71,6 @@ export const Educacion = () => {
             </div>
           </li>
         </ul>
-      </div>
     </div>
   );
 };

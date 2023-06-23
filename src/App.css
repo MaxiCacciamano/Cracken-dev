@@ -34,7 +34,7 @@
 }
 @media screen and (max-width: 480px){
   .general{
-    padding:0px 3rem;
+    padding:50px;
   }
 }
 .App-link {
