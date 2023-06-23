@@ -15,9 +15,9 @@ export const Tecnologias = () => {
     AOS.init(); // Inicializa AOS
   }, []);
   return (
-    <div id="skills"  className="Tecnologias" data-aos="fade-right">
+    <div id="skills" className="Tecnologias" /*data-aos="fade-right"*/>
       <h1>Skills</h1>
-      <div className="skills">
+      <div  className="skills">
         <div className="js">
           <svg
             role="img"
@@ -302,7 +302,7 @@ export const Tecnologias = () => {
           <h5 style={{ bottom: "7px" }}>.Net</h5>
         </div>
       </div>
-      <div className="Habilidades-blandas" data-aos="fade-left">
+      <div className="Habilidades-blandas" /*data-aos="fade-left"*/>
         <h1>Habilidades blandas</h1>
           <div className="blandas">
             <div className="subBland">
