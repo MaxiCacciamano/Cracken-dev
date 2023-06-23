@@ -3,9 +3,8 @@ import "./experiencia.scss";
 
 export const Experiencia = () => {
   return (
-    <div>
+    <div data-aos="fade-left">
       <h1 id="experiencia">Experiencia</h1>
-      <div data-aos="fade-left">
         <ul class="timeline">
           <li class="timeline-event">
             <label class="timeline-event-icon"></label>
@@ -115,7 +114,6 @@ export const Experiencia = () => {
             </div>
           </li>
         </ul>
-      </div>
     </div>
   );
 };
