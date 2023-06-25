@@ -668,7 +668,7 @@ export const Proyectos = () => {
             <div
               class="thumb fast"
               style={{
-                backgroundImage:"url(blob:https://vercel.com/d72f5a18-926b-45a4-8a19-d6a9a8c65eca)",
+                backgroundImage:"url(https://github.com/MaxiCacciamano/Cracken-dev/blob/main/src/IMG/fast.png?raw=true)",
                 backgroundSize:"cover"
                 
               }}
