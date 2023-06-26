@@ -609,7 +609,7 @@ export const Proyectos = () => {
           <a href="https://www.goldshopue.it" class="card">
             <div
               class="thumb"
-              style={{ backgroundImage: "url(../../IMG/git.png)" }}
+              style={{ backgroundImage: "url(https://github.com/MaxiCacciamano/Cracken-dev/blob/main/src/IMG/gold.png?raw=true)" }}
             ></div>
             <article>
               <h1>GoldShop-Italia</h1>
