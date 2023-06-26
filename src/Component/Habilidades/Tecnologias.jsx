@@ -7,15 +7,16 @@ import positiva from "../../IMG/actitud-positiva.png";
 import empleado from "../../IMG/empleado.png";
 import "aos/dist/aos.css";
 import AOS from "aos";
-
 import "./tecnologias.scss";
 
+
 export const Tecnologias = () => {
+  
   useEffect(() => {
     AOS.init(); // Inicializa AOS
   }, []);
   return (
-    <div id="skills" className="Tecnologias" /*data-aos="fade-right"*/>
+    <div id="skills" className="Tecnologias" >
       <h1>Skills</h1>
       <div  className="skills">
         <div className="js">
