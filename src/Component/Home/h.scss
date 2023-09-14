@@ -3,15 +3,22 @@ $popin:"Poppins", sans-serif;
 
 .hh{
     height: 100vh;
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     .gen{
-        display: flex;
+        // display: flex;
+        // gap: 100px;
+    /* justify-content: center; */
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
         .gen0{
             flex-basis: 50%;
-            margin: auto;
+            margin: 60px;
             h1{
                 font-size: 5rem;
                 color: $colorleter;
@@ -38,12 +45,16 @@ $popin:"Poppins", sans-serif;
             }
         }
         .gen1{
-            flex-basis: 50%;
+            // flex-basis: 50%;
+            width: 400px;
+            height: 400px;
+            background-color: #00390d;
+            border-radius: 80% 50% 70% 50%;
+            background-image: url(../../IMG/max.png);
+            background-size: cover;
             margin: auto;
-            img{
-                // width: 100%;
-            }
         }
+
     }
 }
 
@@ -67,6 +78,9 @@ $popin:"Poppins", sans-serif;
                 .resume{
                     justify-content: center;
                 }
+            }
+            .gen1{
+    
             }
         }
     }
