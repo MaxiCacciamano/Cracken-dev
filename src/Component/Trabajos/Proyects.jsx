@@ -782,7 +782,7 @@ export const Proyectos = () => {
               // style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"
               style={{
                 backgroundImage:
-                  "url(#)",
+                  "url(../../IMG/reto.png)",
               }}
             ></div>
             <article>
