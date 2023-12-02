@@ -774,7 +774,7 @@ export const Proyectos = () => {
         </div>
         <div class="item-1">
           <a
-            href="#"
+            href="https://proyect-colors.vercel.app"
             class="card"
           >
             <div
