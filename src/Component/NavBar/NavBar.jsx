@@ -19,12 +19,12 @@ function BasicExample() {
                 <a>Home</a>
               </Link>
             </Nav.Link>
-            <NavDropdown title="About" id="basic-nav-dropdown">
-              {/* <NavDropdown.Item href="#action/3.1">About me</NavDropdown.Item> */}
+            {/*<NavDropdown title="About" id="basic-nav-dropdown">
+               <NavDropdown.Item href="#action/3.1">About me</NavDropdown.Item> 
               <NavDropdown.Item href="/About" className="bb">
                 <p>About me</p>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#skills">
+               <NavDropdown.Item href="/Tecnologias" >
                 <p>Skills</p>
               </NavDropdown.Item>
               <NavDropdown.Item href="#educacion">
@@ -32,11 +32,16 @@ function BasicExample() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#experiencia">
                 <p>Experiencia</p>
-              </NavDropdown.Item>
-            </NavDropdown>
+              </NavDropdown.Item> 
+            </NavDropdown>*/}
+            <Nav.Link>
+              <Link to="about">
+                <a>Sobre mi</a>
+              </Link>
+            </Nav.Link>
             <Nav.Link href="#deets">
               <Link to="/proyects">
-                <a>Proyects</a>
+                <a>Proyectos</a>
               </Link>
             </Nav.Link>
           </Nav>
